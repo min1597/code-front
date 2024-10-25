@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.12.3",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@types/crypto-js": "^4.2.2",
+    "@vueuse/components": "^11.1.0",
+    "@vueuse/core": "^11.1.0",
+    "@vueuse/nuxt": "^11.1.0",
+    "axios": "^1.7.2",
+    "crypto-js": "^4.2.0",
+    "dayjs": "^1.11.13",
+    "maska": "^3.0.0",
+    "pug": "^3.0.3",
+    "vite-plugin-pug": "^0.3.2",
+    "vue-click-outside-element": "^3.1.2"
+  }
+}
